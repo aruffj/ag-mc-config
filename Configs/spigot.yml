@@ -147,8 +147,8 @@ world-settings:
       hopper-transfer: 8
       hopper-check: 1
     hunger:
-      jump-walk-exhaustion: 0.01
-      jump-sprint-exhaustion: 0.01
+      jump-walk-exhaustion: 0.05
+      jump-sprint-exhaustion: 0.2
       combat-exhaustion: 0.1
       regen-exhaustion: 6.0
       swim-multiplier: 0.01
