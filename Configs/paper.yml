@@ -117,7 +117,7 @@ world-settings:
     use-faster-eigencraft-redstone: true
     bed-search-radius: 1
     allow-non-player-entities-on-scoreboards: false
-    portal-search-radius: 128
+    portal-search-radius: 32
     portal-create-radius: 16
     disable-explosion-knockback: false
     fix-zero-tick-instant-grow-farms: true
