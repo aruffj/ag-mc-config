@@ -12,7 +12,8 @@ All current configs are included.
 
 The Server currently supports several convenience functions. Please refer to the following list:
 
-All commands are typed into the chat (Press the T key) and need the leading / (slash)
+__All commands are typed into the chat (Press the T key) and need the leading / (slash)__
+
 ### Durability Ping
 Will send a message to you if you tool has 10% of usage remaining.
 Enter `/trigger duraPing` to change your personal settings.
