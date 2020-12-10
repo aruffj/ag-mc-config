@@ -10,6 +10,17 @@ All current configs are included.
 
 ## Server Commands for everyone
 
+### Important note
+
+The server is currently restricted by whitelisting, therefore only known accounts are allowed to connect. To get whitelisted please either Ping @TheCoffeeCommander or @rainer_provokateur on Telegram.
+
+If you are in the Trusted Group (@TheCoffeeCommander and @rainer_provokateur can set that up for you) you will be able to turn off whitelisting to invite new people. To do that do the following:
+
+1. Type `/whitelist off`
+1. Let the person you want to add to the server connect
+1. When they are connected type `/whitelist add <user name>`
+1. Enable the whitelist again with `/whitelist on`
+
 The Server currently supports several convenience functions. Please refer to the following list:
 
 _Note_ All commands are typed into the chat (Press the T key) and need the leading / (slash).
