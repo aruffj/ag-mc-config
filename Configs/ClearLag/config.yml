@@ -25,7 +25,7 @@ settings:
 # -- 'use-permission-for-broadcasts' Should clearlag use permissions?
 # -- 'permission' What is the permission? (By default, it's bukkit's default)
 global-broadcasts:
-  enabled: false
+  enabled: true
   async: false
   use-permission-for-broadcasts: false
   permission: bukkit.broadcast
@@ -345,9 +345,9 @@ item-merger:
 # -- 'remove-entities' What entities SHOULD be removed during removal
 auto-removal:
   enabled: true
-  broadcast-message: '&6[ClearLag] &aRemoved +RemoveAmount Entities!'
+  broadcast-message: '&aRemoved +RemoveAmount Entities!'
   broadcast-removal: true
-  autoremoval-interval: 460
+  autoremoval-interval: 900
   world-filter:
   # - this_world <-This world will be ignored during removal!
   boat: false
@@ -375,8 +375,8 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:400 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
-        - 'time:440 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds!'
+        - 'time:450 msg:&4[ClearLag] Ground items will be removed in &7+remaining seconds,'
+        - 'time:840 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds.'
 
 #What should be removed during /lagg clear, nearly the same thing as auto-removal
 command-remove:

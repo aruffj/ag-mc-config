@@ -20,12 +20,17 @@ Enter `/trigger duraPing` to change your personal settings.
 You can enable showing your XYZ coordinates, looking direction and world time.
 To enable or disable use `/trigger ch_toggle`
 
+### The warehouse
+There is a freeshop on the server where you can freely take all items and use them without asking for permission. The warehouse is also the spawnpoint for new players. To visit the warehouse at any given time type `/trigger warehouse` in the chat.
+
 ### Set Home, teleport there - and back!
 We've enabled home zones on the server. You can use it at any location; it will set your home. You will still respawn at the last bed you used / at the original spawn point, but you can use commands to teleport yourself to your home with a cooldown of 10 Seconds. This won't work if you are currently attacked by a monster, or if you are drowning.
 
 #### Setting your home
 Stand on any solid block and type `/trigger sethome`
-An automated message will tell you if you've been successful.
+An message will tell you if you've been successful.
+
+To add an additional home use `/trigger sethome set <NUMBER>`. You can currently set up to 3 homes.
 
 #### Teleporting to your home
 If you want to teleport to your home you may use `/trigger home`. See above for restrictions.
