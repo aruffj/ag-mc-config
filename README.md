@@ -10,6 +10,8 @@ All current configs are included.
 
 ## Server Commands for everyone
 
+You can find a shorter cheat sheet [here](CheatSheet.md).
+
 ### Important note
 
 The server is currently restricted by whitelisting, therefore only known accounts are allowed to connect. To get whitelisted please either Ping @TheCoffeeCommander or @rainer_provokateur on Telegram.
