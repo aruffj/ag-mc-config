@@ -56,4 +56,5 @@ All trusted members can use the listed commands. Contact TheVoxOrb or RainerP if
 
 ## Locating Biomes and Places
 `/locate` - Allows you to look for places (e.g. Villages). Prints coordinates to chat
+
 `/locatebiome` - Allows you to look for biomes (e.g. jungles). Prints coordinates to chat. 
