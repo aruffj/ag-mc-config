@@ -72,7 +72,7 @@ ram-meter:
 # -- 'disable-natural-entity-spawning' disables the server's natural world spawning
 # -- 'halted' this section defines which actions should be halted during '/lagg halt'
 halt-command:
-  remove-entities: true
+  remove-entities: false
   disable-natural-entity-spawning: true
   halted:
     fire: true
@@ -133,7 +133,7 @@ item-spawn-age-setter:
 # -- 'max-mobs' means how many bably/adult animals are allowed within the 'check-radius'
 # -- 'check-radius' is the radius of what clearlag will check for 'max-mobs'
 mob-breeding-limiter:
-  enabled: true
+  enabled: false
   max-mobs: 10
   check-radius: 15
 
@@ -321,7 +321,7 @@ kill-mobs:
 # -- 'remove-mobs-on-chunk-unload' is whether or not Clearlag should remove
 # --  the mobs spawned by the mobspawner upon chunk unload (Highly Recommended)
 mobspawner:
-  enabled: true
+  enabled: false
   max-spawn: 4
   remove-mobs-on-chunk-unload: true
 
@@ -344,10 +344,10 @@ item-merger:
 # -- 'item-filter' What ground-items should NOT be removed during removal
 # -- 'remove-entities' What entities SHOULD be removed during removal
 auto-removal:
-  enabled: true
+  enabled: false
   broadcast-message: '&aRemoved +RemoveAmount Entities!'
   broadcast-removal: true
-  autoremoval-interval: 900
+  autoremoval-interval: 600
   world-filter:
   # - this_world <-This world will be ignored during removal!
   boat: false
@@ -357,7 +357,7 @@ auto-removal:
   projectile: false
   item: true
   itemframe: false
-  minecart: false
+  minecart: true
   primed-tnt: true
   item-filter:
   # - Stone <-This item-id will be ignored during removal!
@@ -367,7 +367,6 @@ auto-removal:
     - Snowball
     - Egg
     - Fireball
-    - Minecart !isMounted
     - MINECART_TNT
   # - cow <- This mob-type will be REMOVED during removal!
   # - MINECART_MOB_SPAWNER
@@ -375,8 +374,8 @@ auto-removal:
   # - Minecart !isMounted <- This entity will be REMOVED if it's NOT mounted
   # - Wolf !hasName <- This entity will be REMOVED if it doesn't have a name
   warnings:
-        - 'time:450 msg:&4[ClearLag] Ground items will be removed in &7+remaining seconds,'
-        - 'time:840 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds.'
+        - 'time:480 msg:&7[ClearLag] Ground items clear up in &7+remaining seconds,'
+        - 'time:540 msg:&4[ClearLag] &cWarning Ground items will be removed in &7+remaining &cseconds.'
 
 #What should be removed during /lagg clear, nearly the same thing as auto-removal
 command-remove:

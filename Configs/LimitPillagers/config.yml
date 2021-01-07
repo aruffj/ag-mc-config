@@ -31,7 +31,7 @@ Stopper:
 Limiter:
 
    # Should we limit Pillager spawns? (Needs stopper to be false)
-   Enabled: true
+   Enabled: false
    
    # What radius should be check for other Pillagers?
    Radius-X: 48
@@ -72,7 +72,7 @@ Patrol-Remover:
    # I'd recommend using that instead unless you only want to remove the target of the 
    # patrol mob then enable both here and disable the setting in paper
    #
-   Enabled: true
+   Enabled: false
    
    # Should we ONLY remove the patrol mobs target to fix their lag but let patrols spawn and attack players like normal mobs? (Needs Enabled to be true)
    # see https://www.youtube.com/watch?v=BJ0jzlzEhgo

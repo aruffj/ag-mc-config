@@ -1,0 +1,11 @@
+8428e454-3126-4d94-a203-abee49fa265a:
+  autosort: false
+0a2ac1dd-ae50-484d-abc6-c5b7ba269b79:
+  categories:
+    order:
+    - AlphaAsc
+    - IsBlock
+    - StoneList
+    - StoneWord
+    - IsEdible
+    - IsFuel
